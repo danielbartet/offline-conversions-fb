@@ -1,0 +1,37 @@
+{
+    "name": "danielbartet/offline-conversions-fb",
+    "description": "Set Facebook offline conversion",
+    "keywords": [
+        "danielbartet",
+        "argentina",
+        "facebook",
+        "offline",
+        "conversion"
+    ],
+    "homepage": "https://github.com/danielbartet/offline-conversions-fb",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Walter Bartet",
+            "email": "dwbartet@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6.0|>=7.0",
+        "illuminate/support": "~5.3.28|~5.4|~5.5",
+        "ixudra/curl": "^6.11",
+    },
+    "autoload": {
+        "psr-4": {
+            "DanielBartet\\OfflineConversionFB\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "danielbartet\\OfflineConversionFB\\OfflineConversionFBServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
