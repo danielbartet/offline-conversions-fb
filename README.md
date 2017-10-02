@@ -1,4 +1,4 @@
-# Laravel Cbu Validator
+# Laravel Facebook Offline Conversion
 Set Offline Conversion Facebook for Laravel 5
 
 ## Install
