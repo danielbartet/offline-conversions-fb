@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "danielbartet\\OfflineConversionFB\\OfflineConversionFBServiceProvider"
+                "DanielBartet\\OfflineConversionFB\\OfflineConversionFBServiceProvider"
             ]
         }
     },
